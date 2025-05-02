@@ -1,3 +1,8 @@
-//Votre code ici
+function add(a, b) {
+  const numA = parseFloat(a);
+  const numB = parseFloat(b);
 
- export default add;
+  return numA + numB;
+}
+
+export default add;
